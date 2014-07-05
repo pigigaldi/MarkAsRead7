@@ -1,0 +1,10 @@
+Package: com.pigigaldi.markasread7
+Name: MarkAsRead7
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome Cydia Substrate tweak!
+Maintainer: Pigi Galdi
+Author: Pigi Galdi
+Section: Tweaks
+Version: 0.0.1-1
+Installed-Size: 88
