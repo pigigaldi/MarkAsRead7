@@ -27,4 +27,8 @@ packages/Library/MobileSubstrate/DynamicLibraries/MarkAsRead7.dylib
 
 theos
 
+layout/DEBIAN/control
+
+layout/DEBIAN
+
 layout
