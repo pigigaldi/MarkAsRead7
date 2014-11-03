@@ -20,7 +20,7 @@
 	// Getting icon.
 	SBIconController *_iconController = [%c(SBIconController) sharedInstance];
 	SBIconModel *_iconModel = [_iconController model];
-	SBIcon *_currentIcon = [_iconModel expectedIconForDisplayIdentifier:[section identifier]];
+	SBIcon *_currentIcon = [_iconModel applicationIconForBundleIdentifier:[section identifier]];
 	// "Removing" badge by setting it to 0.
 	[_currentIcon setBadge:[NSNumber numberWithInt:0]];
 }

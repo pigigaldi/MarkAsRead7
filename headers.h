@@ -17,7 +17,7 @@
 - (void)setBadge:(id)arg1;
 @end
 @interface SBIconModel
--(id)expectedIconForDisplayIdentifier:(id)arg1 ;
+- (id)applicationIconForBundleIdentifier:(id)arg1;
 @end
 @interface SBIconController
 -(id)sharedInstance;
